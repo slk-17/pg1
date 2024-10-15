@@ -1,0 +1,9 @@
+#pgm5
+def swap_objects(arr):
+    n = len(arr)
+    for i in range(n // 2):
+    arr[i], arr[n - i - 1] = arr[n - i - 1], arr[i]
+
+arr = [1, 2, 3, 4, 5]
+res=swap_objects(arr)
+print(res)
