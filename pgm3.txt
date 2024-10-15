@@ -1,0 +1,9 @@
+#pgm3
+def reverse_array(arr):
+    n = len(arr)
+    for i in range(n - 1, -1, -1):
+        print(arr[i], end=' ')
+
+arr = [1, 2, 3, 4, 5]
+res=reverse_array(arr)
+print(res)
